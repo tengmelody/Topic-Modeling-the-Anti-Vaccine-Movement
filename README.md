@@ -16,7 +16,7 @@ Preprocessing is a must to achieve structure. Otherwise, comprehensibility among
 
 Now came analysis. I put the tweets into Vader's SentimentIntensityAnalyzer. Scores of Positive, Neutral, and Negative corresponded to the tweets' sentiment leanings.
 
-![Image](https://github.com/tengmelody/Topic-Modeling-the-Anti-Vaccine-Movement/blob/main/img/pasted-image.tiff)
+![Image](https://github.com/tengmelody/Topic-Modeling-the-Anti-Vaccine-Movement/blob/main/img/sentiment%20scores.png)
 
 From there, I took only the negative tweets. I chose them because they seemed more likely to imply the anti-vaccine sentiment. 
 
