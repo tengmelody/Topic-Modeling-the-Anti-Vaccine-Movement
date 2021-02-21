@@ -24,7 +24,9 @@ I then put the negative tweets into Sklearn's Latent Dirichlet Allocation. This 
 
 NMF was another clustering technique I could have utilized. But I chose to go with LDA because the results appeared more relevant to the context. 
 
-With the categories finalized, I used the pyLDAvis library to generate a visual graph. The library creates a visualization that is interactive. On one side, it showed how prevalent each topic is and its relevancy to others. The other side ranked the terms most useful to interpret a topic. 
+With the categories finalized, I used the pyLDAvis library to generate a visual graph. The library creates a visualization that is interactive. On one side, it showed how prevalent each topic is and its relevancy to others. The other side ranked the terms most useful to interpret a topic.
+
+![Image](https://github.com/tengmelody/Topic-Modeling-the-Anti-Vaccine-Movement/blob/main/img/pyLDAvis.png)
 
 I started this project with the intention to understand the minds of anti-vaxxers. I wanted to know the factors that influence their thinkings. Yet Twitter, as a platform, offers a rather trivial and cursory way of expressing opinions. Instead of unearthing any insightful details on psychology, my findings felt more surface. The topics tended to lean more toward current event musings. 
 
